@@ -36,5 +36,5 @@ containerized analyses on high-performance computing systems.
 See my [publications and conference presentations](/publication/), or more in my [CV](/cv/).
 
 Apart from research, you will find me hiking, snowboarding, cycling, bouldering or
-diving. I was the goalkeeper of the NYU Shanghai men's soccer team, and I still love
-to cook.
+diving. I was the goalkeeper of the NYU Shanghai men's soccer team, and I very much
+love trying good food and cooking.

@@ -23,7 +23,7 @@ repository               : "yongninglei/yongninglei.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Yongning Lei"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. candidate in cognitive neuroscience of language. Reading circuits, MRI, reproducible neuroimaging."

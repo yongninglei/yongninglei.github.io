@@ -8,4 +8,3 @@ venue: 'Manuscript in preparation'
 citation: '<b>Lei, Y.</b>, Paz-Alonso, P. M., &amp; Lerma-Usabiaga, G.# A multimodal dense-sampled MRI dataset for ventral occipitotemporal reading circuits [Manuscript in preparation].'
 ---
 
-<small>* Equal contribution. # Corresponding author.</small>

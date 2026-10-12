@@ -8,4 +8,3 @@ venue: 'Manuscript in preparation'
 citation: '<b>Lei, Y.</b>, Wang, S., Paz-Alonso, P. M., &amp; Lerma-Usabiaga, G.# Individual-level quantification of white-matter connectivity in the ventral occipitotemporal cortex [Manuscript in preparation].'
 ---
 
-<small>* Equal contribution. # Corresponding author.</small>

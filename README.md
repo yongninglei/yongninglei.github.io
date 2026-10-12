@@ -13,8 +13,7 @@ Jekyll template and deployed by `.github/workflows/jekyll.yml` on every push to 
 | Header menu | `_data/navigation.yml` |
 | Home page | `_pages/about.md` |
 | CV page | `_pages/cv.md` |
-| Publications | `_publications/*.md` — `category: manuscripts` or `inprep` |
-| Talks & posters | `_talks/*.md` — `date` sorts, `date_display` is what is shown |
+| Publications, talks, posters | `_pages/publication.md` (numbered APA lists) |
 | Software / projects | `_portfolio/*.md` |
 | Profile photo | `images/profile.png` |
 

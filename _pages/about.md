@@ -1,43 +1,40 @@
 ---
 permalink: /
 title: "About me"
+excerpt: "About me"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I am a Ph.D. candidate in the Cognitive Neuroscience of Language at the
-[Basque Center on Cognition, Brain and Language (BCBL)](https://www.bcbl.eu/)
-in San Sebastián, Spain, supported by a BFI Predoctoral Fellowship from the Basque
-Government. I work with Garikoitz Lerma-Usabiaga and Pedro M. Paz-Alonso.
+**Welcome!**
 
-My research asks how the reading circuitry of the ventral occipitotemporal cortex
-(VOTC) is organized in individual brains, and how to localize it precisely and
-reproducibly. I combine dense-sampling and high-resolution fMRI, pRF/retinotopic
-mapping, diffusion MRI and quantitative MRI to characterize reading-selective
-regions, their white-matter connections, and their variability across people.
+I am a Ph.D. candidate in Cognitive Neuroscience of Language at the
+[Basque Center on Cognition, Brain and Language (BCBL)](https://www.bcbl.eu/) in
+San Sebastián, Spain, supervised by Dr. Garikoitz Lerma-Usabiaga and Dr. Pedro M. (Kepa)
+Paz-Alonso. I study the reading circuitry of the ventral occipitotemporal cortex,
+using dense-sampling fMRI, retinotopy, diffusion MRI and quantitative MRI.
 
-Research interests
-------
-- **Individual-subject functional mapping** — localizing and delineating reading ROIs
-  in VOTC, and reducing inter-rater and inter-study variability in how they are defined
-- **White-matter connectivity** — ventral and dorsal pathways linking VOTC to the
-  inferior frontal gyrus
-- **Visual field mapping** — pRF estimates for words versus checkerboards, and how
-  stimulus features bias them
-- **Reproducible neuroimaging** — BIDS, containerized pipelines on HPC, automated
-  processing and quality control
+My primary research interests are **the neural basis of reading**, **individual
+variability in brain organization**, **visual field mapping** and **reproducible
+neuroimaging**.
 
-Software
-------
-I develop and maintain open-source neuroimaging tools, including
-[Launchcontainers](https://github.com/yongninglei/launchcontainers), a Python tool
-for launching containerized analyses on high-performance computing systems, and
-autoROI-visualizer, a lightweight FreeSurfer-compatible viewer for cortical surface
-visualization and manual ROI delineation. See [Software](/portfolio/).
+<p> To be specific, I ask questions like:
+  <br> Where exactly are the reading-selective regions in each individual brain, and how can we delineate them reproducibly?
+  <br> How do white-matter pathways connect the ventral occipitotemporal cortex to the frontal language network?
+  <br> How do stimulus features, such as words versus checkerboards, shape population receptive field estimates?
+  <br> How can we make neuroimaging pipelines transparent, automated and reproducible from scanner to result? </p>
 
-Background
-------
-Before BCBL, I received my M.Sc. in Cognitive Neuroscience of Language at BCBL (2022)
-and my B.Sc. in Neuroscience from New York University Shanghai (2021).
+I received my M.Sc. in Cognitive Neuroscience of Language at BCBL and my B.Sc. in
+Neuroscience at [New York University Shanghai](https://shanghai.nyu.edu/). My Ph.D. is
+funded by a BFI Predoctoral Fellowship from the Basque Government. I also build
+open-source tools for neuroimaging, such as
+[Launchcontainers](https://github.com/yongninglei/launchcontainers), which runs
+containerized analyses on high-performance computing systems.
+
+See my [publications and conference presentations](/publication/), or more in my [CV](/cv/).
+
+Apart from research, you will find me hiking, snowboarding, cycling, bouldering or
+diving. I was the goalkeeper of the NYU Shanghai men's soccer team, and I still love
+to cook.

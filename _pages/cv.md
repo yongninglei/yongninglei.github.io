@@ -37,19 +37,9 @@ Research expertise & technical skills
 * **Reproducibility & workflows:** reproducible neuroimaging workflows; BIDS; data provenance; containerized analysis pipelines; automated processing and quality control; high-performance computing
 * **Programming & software:** Python; MATLAB; Bash; FreeSurfer; MRtrix3; fMRIPrep; Nilearn; RTP2-pipeline
 
-Publications
+Publications & presentations
 ======
-<small>* Equal contribution. # Corresponding author.</small>
-
-<ul>{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
-
-Talks & presentations
-======
-<ul>{% for post in site.talks reversed %}
-  {% include archive-single-talk-cv.html %}
-{% endfor %}</ul>
+* 2 manuscripts under review or preprint, 5 in preparation, 1 invited talk, 11 conference presentations and workshops: see [Publications](/publication/).
 
 Awards & fellowships
 ======

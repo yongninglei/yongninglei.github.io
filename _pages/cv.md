@@ -21,14 +21,20 @@ redirect_from:
 ## Short bio
 
 Yongning Lei is a Ph.D. candidate in Cognitive Neuroscience of Language at the Basque
-Center on Cognition, Brain and Language (BCBL) in San Sebastián, Spain, funded by a BFI
-Predoctoral Fellowship from the Basque Government. Yongning's research uses dense-sampling and
-high-resolution fMRI, pRF mapping, diffusion MRI and quantitative MRI to localize the
-reading circuitry of the ventral occipitotemporal cortex in individual brains, and to
-characterize its white-matter connections and variability across people. Yongning builds
-open-source tools for reproducible neuroimaging, including Launchcontainers, and
-co-organized the 2026 BCBL workshop towards a consensus framework for reading ROI
-delineation, and holds an M.Sc. from BCBL and a B.Sc. in Neuroscience from NYU Shanghai.
+Center on Cognition, Brain and Language (BCBL) in San Sebastián, Spain, supported by a
+BFI Predoctoral Fellowship from the Basque Government.
+
+Lei's research asks where reading happens in each individual brain. Combining
+dense-sampling fMRI, retinotopic mapping, diffusion MRI and quantitative MRI, the work
+maps the reading-selective regions of the ventral occipitotemporal cortex, traces their
+white-matter connections to the language network, and measures how much they vary from
+person to person.
+
+Alongside the science, Lei builds open-source tools for reproducible neuroimaging, from
+Launchcontainers, which runs containerized pipelines on high-performance computing, to
+Delineation Helper, a browser-based tool for drawing ROIs on the cortical surface. Lei
+co-organized the 2026 BCBL workshop on a consensus framework for reading ROI delineation,
+and holds an M.Sc. from BCBL and a B.Sc. in Neuroscience from NYU Shanghai.
 </div>
 
 <div class="tab-pane" id="education" markdown="1">

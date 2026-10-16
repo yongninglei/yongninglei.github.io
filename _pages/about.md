@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="clearfix" markdown="1">
 <img class="portrait" src="/images/profile.jpg" alt="Yongning Lei">
-Hi! I'm Yongning Lei, and my friends call me Tiger. I am a Ph.D. candidate in Cognitive Neuroscience of Language at the
+Hi! I'm Yongning Lei (he/him), and my friends call me Tiger. I am a Ph.D. candidate in Cognitive Neuroscience of Language at the
 [Basque Center on Cognition, Brain and Language (BCBL)](https://www.bcbl.eu/) in
 San Sebastián, Spain, supervised by Dr. Garikoitz Lerma-Usabiaga and Dr. Pedro M. (Kepa)
 Paz-Alonso. I study the reading circuitry of the ventral occipitotemporal cortex,
@@ -41,11 +41,14 @@ days, of course, with the help of AI).
 
 ### Delineation Helper: draw reading ROIs in your browser
 
-<a href="/software/"><img class="demo" src="/images/software/delineation-helper.gif" alt="Delineation Helper rotating an inflated and a pial cortical surface together, with reading ROIs on the ventral occipitotemporal cortex"></a>
+<a href="https://readingroi-workshop-2026.github.io/app_manual_delineation_helper/"><img class="demo" src="/images/software/delineation-helper.gif" alt="Delineation Helper rotating an inflated and a pial cortical surface together, with reading ROIs on the ventral occipitotemporal cortex"></a>
 
 A fast web viewer I built for the 2026 reading-ROI delineation workshop: inflated and pial
 surfaces side by side with linked cameras, functional heatmaps, atlas and manual labels,
 and drawing tools that save FreeSurfer labels.
+It runs entirely in your browser, with an example dataset to play with.
+
+<a class="btn" href="https://readingroi-workshop-2026.github.io/app_manual_delineation_helper/"><i class="fa-solid fa-arrow-up-right-from-square"></i> Try it online</a>
 [More on the Software page](/software/) ·
 [Code on GitHub](https://github.com/readingroi-workshop-2026/app_manual_delineation_helper)
 </div>

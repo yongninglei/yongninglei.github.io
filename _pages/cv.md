@@ -24,15 +24,15 @@ Yongning Lei is a Ph.D. candidate in Cognitive Neuroscience of Language at the B
 Center on Cognition, Brain and Language (BCBL) in San Sebastián, Spain, supported by a
 BFI Predoctoral Fellowship from the Basque Government.
 
-Lei's research asks where reading happens in each individual brain. Combining
+His research asks where reading happens in each individual brain. Combining
 dense-sampling fMRI, retinotopic mapping, diffusion MRI and quantitative MRI, the work
 maps the reading-selective regions of the ventral occipitotemporal cortex, traces their
 white-matter connections to the language network, and measures how much they vary from
 person to person.
 
-Alongside the science, Lei builds open-source tools for reproducible neuroimaging, from
+Alongside the science, he builds open-source tools for reproducible neuroimaging, from
 Launchcontainers, which runs containerized pipelines on high-performance computing, to
-Delineation Helper, a browser-based tool for drawing ROIs on the cortical surface. Lei
+Delineation Helper, a browser-based tool for drawing ROIs on the cortical surface. He
 co-organized the 2026 BCBL workshop on a consensus framework for reading ROI delineation,
 and holds an M.Sc. from BCBL and a B.Sc. in Neuroscience from NYU Shanghai.
 </div>
@@ -103,7 +103,7 @@ and holds an M.Sc. from BCBL and a B.Sc. in Neuroscience from NYU Shanghai.
 ## Professional service & memberships
 
 * **Event organization:** co-organizer, *Towards a consensus framework for reading ROI delineation in the ventral occipitotemporal cortex*, scientific workshop hosted by BCBL, August 2026 ([materials](https://github.com/readingroi-workshop-2026))
-* **Open-source software:** developer & maintainer of [Delineation Helper](https://github.com/readingroi-workshop-2026/app_manual_delineation_helper) and [Launchcontainers](https://github.com/yongninglei/launchcontainers) (see [Software](/software/))
+* **Open-source software:** developer & maintainer of [Delineation Helper](https://readingroi-workshop-2026.github.io/app_manual_delineation_helper/) and [Launchcontainers](https://github.com/yongninglei/launchcontainers) (see [Software](/software/))
 * **Memberships:** Society for the Neurobiology of Language (SNL); Vision Sciences Society (VSS); Organization for Human Brain Mapping (OHBM); BrainHack Donostia
 
 ## Leadership & extracurricular

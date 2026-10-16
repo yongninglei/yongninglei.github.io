@@ -28,10 +28,7 @@ neuroimaging**.
 
 I received my M.Sc. in Cognitive Neuroscience of Language at BCBL and my B.Sc. in
 Neuroscience at [New York University Shanghai](https://shanghai.nyu.edu/). My Ph.D. is
-funded by a BFI Predoctoral Fellowship from the Basque Government. I also build
-open-source tools for neuroimaging, such as
-[Launchcontainers](https://github.com/yongninglei/launchcontainers), which runs
-containerized analyses on high-performance computing systems.
+funded by a BFI Predoctoral Fellowship from the Basque Government.
 
 </div>
 

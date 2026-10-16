@@ -36,9 +36,3 @@ A Python tool for launching containerized neuroimaging analyses (e.g. RTP2-pipel
 fMRIPrep) on high-performance computing systems, with BIDS-aware configuration and
 reproducible provenance. Presented as a workshop at BrainHack Donostia 2023.<br>
 <i class="fa-brands fa-github"></i> [github.com/yongninglei/launchcontainers](https://github.com/yongninglei/launchcontainers)
-
-## Reading ROI delineation workshop (2026)
-
-Co-organizer of *Towards a consensus framework for reading ROI delineation in the ventral
-occipitotemporal cortex*, a scientific workshop hosted by BCBL in August 2026.<br>
-<i class="fa-brands fa-github"></i> [github.com/readingroi-workshop-2026](https://github.com/readingroi-workshop-2026)

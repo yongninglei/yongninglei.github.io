@@ -1,0 +1,90 @@
+:root {
+  --ink: #1a1a1a;
+  --text: #55595c;
+  --muted: rgba(0, 0, 0, 0.3);
+  --rule: rgba(0, 0, 0, 0.1);
+  --bg: #fff;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 17.6px;
+  font-weight: 200;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.container { max-width: 960px; margin: 0 auto; padding: 0 16px; }
+
+a { color: var(--ink); text-decoration: none; font-weight: 300; }
+a:hover { text-decoration: underline; }
+
+strong, b { font-weight: 700; color: var(--ink); }
+
+h1, h2, h3 { color: var(--ink); font-weight: 600; text-transform: uppercase; }
+h1 { font-size: 32px; letter-spacing: 3px; line-height: 1.2; margin: 0 0 8px; }
+h2 { font-size: 20px; letter-spacing: 2px; margin: 32px 0 12px; }
+h3 { font-size: 16px; letter-spacing: 1.5px; margin: 24px 0 8px; }
+p { margin: 0 0 16px; }
+
+/* ---- top navigation ---- */
+.topnav {
+  background: var(--bg);
+  border-bottom: 1px solid var(--rule);
+  padding: 24px 0;
+  margin-bottom: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.topnav__inner { display: flex; align-items: center; flex-wrap: wrap; gap: 0 32px; }
+.brand { color: var(--ink); font-size: 20.8px; font-weight: 600; letter-spacing: 1px; padding: 5px 0; }
+.brand:hover { text-decoration: none; }
+.menu, .icons { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; }
+.menu a, .icons a { display: block; color: var(--muted); font-size: 14.7px; font-weight: 600; padding: 11px 12px; }
+.menu a:hover, .icons a:hover, .menu a.active { color: var(--ink); text-decoration: none; }
+.icons { margin-left: auto; }
+.icons a { font-size: 15px; padding: 11px 10px; }
+.menu-toggle { display: none; margin-left: auto; background: none; border: 1px solid var(--rule); border-radius: 4px; color: var(--text); font-size: 18px; padding: 4px 10px; cursor: pointer; }
+
+/* ---- welcome page ---- */
+.portrait { float: left; width: 150px; height: 150px; object-fit: cover; margin: 6px 20px 12px 0; }
+.clearfix::after { content: ""; display: table; clear: both; }
+
+/* ---- lists (publications, resume) ---- */
+ol, ul { padding-left: 1.4em; margin: 0 0 16px; }
+li { margin-bottom: 10px; }
+.meta { color: #777; }
+small { font-size: 14px; }
+
+/* ---- resume tabs ---- */
+.tabs { list-style: none; display: flex; flex-wrap: wrap; padding: 0; margin: 16px 0 0; border-bottom: 1px solid var(--rule); }
+.tabs li { margin: 0 0 -1px; }
+.tabs a { display: block; padding: 8px 16px; color: var(--text); font-weight: 200; border: 1px solid transparent; border-radius: 4px 4px 0 0; }
+.tabs a:hover { text-decoration: none; border-color: #e9ecef #e9ecef var(--rule); }
+.tabs a.active { border-color: var(--rule) var(--rule) var(--bg); background: var(--bg); }
+.tab-pane { padding-top: 16px; }
+.tab-pane h2:first-child { margin-top: 0; }
+
+/* ---- footer ---- */
+footer { border-top: 1px solid var(--rule); margin: 32px 0 40px; padding-top: 19px; color: #777; }
+
+@media (max-width: 700px) {
+  body { font-size: 16px; }
+  h1 { font-size: 26px; }
+  .menu-toggle { display: block; }
+  .menu, .icons { display: none; width: 100%; }
+  .open .menu, .open .icons { display: flex; }
+  .menu { flex-direction: column; margin-top: 12px; }
+  .icons { margin-left: 0; }
+  .menu a { padding: 8px 0; }
+  .icons a { padding: 8px 16px 8px 0; }
+  .portrait { width: 110px; height: 110px; }
+}

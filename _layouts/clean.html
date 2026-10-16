@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if page.url == "/" %}{% assign page_title = site.title %}{% else %}{% assign page_title = page.title | append: " | " | append: site.title %}{% endif %}
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 }}">
+  <meta name="author" content="{{ site.author.name }}">
+  <meta property="og:title" content="{{ page_title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:image" content="{{ site.url }}/images/{{ site.author.avatar }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="{{ '/assets/css/clean.css' | relative_url }}">
+</head>
+<body>
+  <nav class="topnav">
+    <div class="container topnav__inner">
+      <a class="brand" href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
+      <button class="menu-toggle" aria-label="Menu" aria-expanded="false" onclick="this.parentNode.classList.toggle('open');this.setAttribute('aria-expanded',this.parentNode.classList.contains('open'))"><i class="fa-solid fa-bars"></i></button>
+      <ul class="menu">
+        {% for link in site.data.navigation.main %}
+        <li><a href="{{ link.url | relative_url }}"{% if page.url == link.url %} class="active"{% endif %}>{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+      <ul class="icons">
+        {% if site.author.orcid %}<li><a href="{{ site.author.orcid }}" title="ORCID" aria-label="ORCID"><i class="fa-brands fa-orcid"></i></a></li>{% endif %}
+        {% if site.author.github %}<li><a href="https://github.com/{{ site.author.github }}" title="GitHub" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></li>{% endif %}
+        {% if site.author.googlescholar %}<li><a href="{{ site.author.googlescholar }}" title="Google Scholar" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a></li>{% endif %}
+        {% if site.author.linkedin %}<li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" title="LinkedIn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a></li>{% endif %}
+        {% if site.author.email %}<li><a href="mailto:{{ site.author.email }}" title="Email" aria-label="Email"><i class="fa-solid fa-envelope"></i></a></li>{% endif %}
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    {% unless page.hide_title %}<h1>{{ page.title }}</h1>{% endunless %}
+    {{ content }}
+    <footer>Contents &copy; {{ site.time | date: "%Y" }} <a href="{{ '/' | relative_url }}">{{ site.author.name }}</a>.</footer>
+  </main>
+
+  <script>
+    // Resume tabs: show one panel at a time; the URL hash selects the tab.
+    (function () {
+      var tabs = document.querySelectorAll('.tabs a');
+      if (!tabs.length) return;
+      function show(id) {
+        tabs.forEach(function (t) { t.classList.toggle('active', t.getAttribute('href') === '#' + id); });
+        document.querySelectorAll('.tab-pane').forEach(function (p) { p.hidden = p.id !== id; });
+      }
+      tabs.forEach(function (t) {
+        t.addEventListener('click', function (e) {
+          e.preventDefault();
+          var id = t.getAttribute('href').slice(1);
+          show(id);
+          history.replaceState(null, '', '#' + id);
+        });
+      });
+      var initial = location.hash.slice(1);
+      show(document.getElementById(initial) ? initial : tabs[0].getAttribute('href').slice(1));
+    })();
+  </script>
+</body>
+</html>

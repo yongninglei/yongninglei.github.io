@@ -12,9 +12,10 @@ Jekyll template and deployed by `.github/workflows/jekyll.yml` on every push to 
 | Sidebar profile, site metadata | `_config.yml` (`author:` block) |
 | Header menu | `_data/navigation.yml` |
 | Home page | `_pages/about.md` |
-| CV page | `_pages/cv.md` |
-| Publications, talks, posters | `_pages/publication.md` (numbered APA lists) |
-| Software / projects | `_portfolio/*.md` |
+| Resume page (tabs) | `_pages/cv.md` |
+| Publications, talks, posters | `_includes/publications.md` (shown on Publications and the Resume tab) |
+| Page layout & styling | `_layouts/clean.html`, `assets/css/clean.css` |
+| Software / projects | `_pages/software.md` |
 | Profile photo | `images/profile.png` |
 
 ## Local preview

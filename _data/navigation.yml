@@ -1,11 +1,11 @@
 # Order of the links in the site header.
 
 main:
+  - title: "Resume"
+    url: /cv/
+
   - title: "Publications"
     url: /publication/
 
   - title: "Software"
-    url: /portfolio/
-
-  - title: "CV"
-    url: /cv/
+    url: /software/

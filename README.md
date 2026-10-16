@@ -15,6 +15,7 @@ Jekyll template and deployed by `.github/workflows/jekyll.yml` on every push to 
 | Resume page (tabs) | `_pages/cv.md` |
 | Publications, talks, posters | `_includes/publications.md` (shown on Publications and the Resume tab) |
 | Page layout & styling | `_layouts/clean.html`, `assets/css/clean.css` |
+| Blog posts | `_posts/YYYY-MM-DD-title.md` (start from `_drafts/example-post.md`) |
 | Software / projects | `_pages/software.md` |
 | Profile photo | `images/profile.png` |
 

@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="clearfix" markdown="1">
 <img class="portrait" src="/images/profile.jpg" alt="Yongning Lei">
-Hi! I'm Yongning Lei. I am a Ph.D. candidate in Cognitive Neuroscience of Language at the
+Hi! I'm Yongning Lei, and my friends call me Tiger. I am a Ph.D. candidate in Cognitive Neuroscience of Language at the
 [Basque Center on Cognition, Brain and Language (BCBL)](https://www.bcbl.eu/) in
 San Sebastián, Spain, supervised by Dr. Garikoitz Lerma-Usabiaga and Dr. Pedro M. (Kepa)
 Paz-Alonso. I study the reading circuitry of the ventral occipitotemporal cortex,
@@ -54,5 +54,5 @@ See my [publications and conference presentations](/publication/), or more in my
 
 Apart from research, you will find me hiking, snowboarding, cycling, bouldering or
 diving. I was the goalkeeper of the NYU Shanghai men's soccer team, and I very much
-love trying good food and cooking.
+love trying good food and cooking. And I have a cute chihuahua, who is in the photo with me!
 </div>

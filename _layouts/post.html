@@ -1,0 +1,19 @@
+---
+layout: clean
+---
+{% assign words = content | number_of_words %}
+<p class="post-meta">
+  <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+  · {{ words | divided_by: 200 | plus: 1 }} min read
+  {% if page.tags.size > 0 %}· {% for t in page.tags %}<span class="post-tag">{{ t }}</span>{% endfor %}{% endif %}
+</p>
+
+<article class="post-body">
+{{ content }}
+</article>
+
+<nav class="post-nav">
+  {% if page.previous %}<a href="{{ page.previous.url | relative_url }}">&larr; {{ page.previous.title }}</a>{% else %}<span></span>{% endif %}
+  <a href="{{ '/blog/' | relative_url }}">All posts</a>
+  {% if page.next %}<a href="{{ page.next.url | relative_url }}">{{ page.next.title }} &rarr;</a>{% else %}<span></span>{% endif %}
+</nav>

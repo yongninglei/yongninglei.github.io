@@ -80,6 +80,20 @@ small { font-size: 14px; }
 .demo { display: block; width: 100%; height: auto; border-radius: 4px; margin: 4px 0 16px; background: #111; }
 @media (max-width: 700px) { .feature { padding: 16px 16px 4px; } }
 
+/* ---- blog ---- */
+.post-list { list-style: none; padding: 0; }
+.post-list li { margin-bottom: 18px; }
+.post-date { display: inline-block; min-width: 64px; color: #777; }
+.post-excerpt { color: #777; font-size: 15.5px; margin: 2px 0 0 68px; }
+.post-meta { color: #777; margin: 0 0 24px; }
+.post-tag { display: inline-block; font-size: 13px; border: 1px solid var(--rule); border-radius: 12px; padding: 0 9px; margin-right: 4px; }
+.post-body img { max-width: 100%; height: auto; }
+.post-body pre { background: #f6f8fa; border-radius: 4px; padding: 12px 14px; overflow-x: auto; font-size: 14px; letter-spacing: 0; }
+.post-body code { font-size: 0.9em; letter-spacing: 0; }
+.post-body blockquote { margin: 0 0 16px; padding-left: 16px; border-left: 3px solid var(--rule); color: #777; }
+.post-nav { display: flex; justify-content: space-between; gap: 16px; border-top: 1px solid var(--rule); margin-top: 32px; padding-top: 16px; font-size: 15px; }
+@media (max-width: 700px) { .post-excerpt { margin-left: 0; } .post-nav { flex-direction: column; } }
+
 /* ---- footer ---- */
 footer { border-top: 1px solid var(--rule); margin: 32px 0 40px; padding-top: 19px; color: #777; }
 

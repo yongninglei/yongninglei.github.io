@@ -33,6 +33,23 @@ open-source tools for neuroimaging, such as
 [Launchcontainers](https://github.com/yongninglei/launchcontainers), which runs
 containerized analyses on high-performance computing systems.
 
+</div>
+
+<div class="feature" markdown="1">
+<span class="tag">Featured project</span>
+
+### Delineation Helper: draw reading ROIs in your browser
+
+<a href="/software/"><img class="demo" src="/images/software/delineation-helper.gif" alt="Delineation Helper rotating an inflated and a pial cortical surface together, with reading ROIs on the ventral occipitotemporal cortex"></a>
+
+A fast web viewer I built for the 2026 reading-ROI delineation workshop: inflated and pial
+surfaces side by side with linked cameras, functional heatmaps, atlas and manual labels,
+and drawing tools that save FreeSurfer labels.
+[More on the Software page](/software/) ·
+[Code on GitHub](https://github.com/readingroi-workshop-2026/app_manual_delineation_helper)
+</div>
+
+<div markdown="1">
 See my [publications and conference presentations](/publication/), or more in my [CV](/cv/).
 
 Apart from research, you will find me hiking, snowboarding, cycling, bouldering or

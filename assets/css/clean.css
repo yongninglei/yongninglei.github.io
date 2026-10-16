@@ -73,6 +73,13 @@ small { font-size: 14px; }
 .tab-pane { padding-top: 16px; }
 .tab-pane h2:first-child { margin-top: 0; }
 
+/* ---- featured project ---- */
+.feature { border: 1px solid var(--rule); border-radius: 6px; padding: 20px 24px 8px; margin: 24px 0 32px; }
+.feature h2 { margin-top: 4px; }
+.tag { display: inline-block; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; color: #b45309; }
+.demo { display: block; width: 100%; height: auto; border-radius: 4px; margin: 4px 0 16px; background: #111; }
+@media (max-width: 700px) { .feature { padding: 16px 16px 4px; } }
+
 /* ---- footer ---- */
 footer { border-top: 1px solid var(--rule); margin: 32px 0 40px; padding-top: 19px; color: #777; }
 

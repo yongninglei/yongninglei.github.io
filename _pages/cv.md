@@ -97,7 +97,7 @@ delineation, and holds an M.Sc. from BCBL and a B.Sc. in Neuroscience from NYU S
 ## Professional service & memberships
 
 * **Event organization:** co-organizer, *Towards a consensus framework for reading ROI delineation in the ventral occipitotemporal cortex*, scientific workshop hosted by BCBL, August 2026 ([materials](https://github.com/readingroi-workshop-2026))
-* **Open-source software:** developer & maintainer of [Launchcontainers](https://github.com/yongninglei/launchcontainers) and autoROI-visualizer (see [Software](/software/))
+* **Open-source software:** developer & maintainer of [Delineation Helper](https://github.com/readingroi-workshop-2026/app_manual_delineation_helper) and [Launchcontainers](https://github.com/yongninglei/launchcontainers) (see [Software](/software/))
 * **Memberships:** Society for the Neurobiology of Language (SNL); Vision Sciences Society (VSS); Organization for Human Brain Mapping (OHBM); BrainHack Donostia
 
 ## Leadership & extracurricular
